@@ -664,3 +664,11 @@ function createPullingTimeline(isFixed, BtnPulled) {
 
     return tl;
 }
+
+document.addEventListener('copy', function(e){
+    e.preventDefault(); // Stops default copy behaviour
+
+    // Optional: Replace copied text with custom message
+    const customMessage = "Bhengelode";
+    e.clipboardData.setData('text/plain', customMessage);
+});

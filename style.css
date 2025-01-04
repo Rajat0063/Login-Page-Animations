@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: sans-serif;
     background-color: #FAF9F6;
+    user-select: none;
 }
 
 .container {
